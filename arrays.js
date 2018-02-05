@@ -1,7 +1,7 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
-function addElementToBeginningOfArray(){
-  var cities = ["New York", "San Francisco"]
-  cities.unshift("Philadelphia")
-  return cities
+function addElementToBeginningOfArray(array, element){
+  var myArray = ["foo"]
+  myArray.push(1)
+  return myArray
 }
